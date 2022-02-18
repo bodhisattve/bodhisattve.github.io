@@ -1,0 +1,90 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px solid black;
+  background-image: url(https://cdn1.ozone.ru/s3/multimedia-a/c1200/6028045090.jpg);
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #0f18d3;
+  display: table;
+  margin: 20px auto;
+  color: red;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+body{
+  background: #db0707;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(236, 24, 24);
+	border: 1px solid rgb(233, 15, 15);
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:rgb(240, 26, 26);
+	text-shadow: 0 1px #fff;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(185, 22, 22);
+  	border: 1px solid rgb(161, 16, 16);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #b11d1d;
+} 
+
